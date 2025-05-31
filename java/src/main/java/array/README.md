@@ -48,7 +48,7 @@ Given an array of integers `nums` and an integer `target`, find the indices of t
 The `TwoSum.java` implementation uses the efficient HashMap approach for optimal performance.
 
 ```mermaid
-flowchart TD
+flowchart LR
     A["Start: nums = '2, 7, 11, 15'; target = 9"] --> B["Initialize empty HashMap"]
     B --> C["Step 1: i = 0, num = 2"]
     C --> D["Compute complement: 9 - 2 = 7"]
